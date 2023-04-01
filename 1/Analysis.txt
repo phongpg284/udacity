@@ -1,0 +1,27 @@
+Task 0:
+	For input n is combine records of texts.csv and calls.csv
+	Tthe worst case complexity will be O(n) since there's no for loop, only access records list item to print result.
+
+Task 1: 
+	For input n is combine records of texts.csv and calls.csv
+	For this task, i use Set to contain distinct telephone numbers call telephone_set.
+	First loop through text and call records will be O(n).
+	For each record, we will add to our Set "telephone_set". The worst case complexity of Set adding element is O(n).
+	Therefore, the worst case complexity overall will be O(n^2).
+
+Task 2:
+	With input n is records of calls.csv, first we loop through our calls list, therefore 1 loop complexity is O(n).
+	In each iteration, we addup duration amount to our dict telephones with respective key. This will take another O(n).
+	Therefore final worst case complexity will be O(n^2).
+
+Task 3:
+	With input n is records from calls.scv only
+	First loop through call records will be O(n)
+	After we got the list of codes received call from Bangalore, sorted worst case will be O(n logn).
+	Therefore, worst case complexity will be O(n + n logn)
+
+Task 4:
+	Let say for input m records of text and n records of call
+	We got 3 loop O(m), O(n), O(n)
+	In each loop we call Set add() is O(n) while discard() is O(1)
+	Therefore, final worst case complexity will be O(m + n^2)
