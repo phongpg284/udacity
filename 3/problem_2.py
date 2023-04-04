@@ -17,7 +17,6 @@ def rotated_array_search(input_list, number):
     else:
         start = pivot_index + 1
 
-    current = (start + end) // 2
     while start <= end:
         current = (start + end) // 2
         if input_list[current] == number:

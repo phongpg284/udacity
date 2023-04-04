@@ -12,6 +12,9 @@ def rearrange_digits(input_list):
     second_number = ""
     picked_number = 1
 
+    if len(input_list) <= 1:
+        return input_list
+
     for digit in input_list:
         digits_count[digit] += 1
     
@@ -44,3 +47,5 @@ test_function([[4, 6, 2, 5, 9, 8], [964, 852]])
 test_function([[1, 1, 1, 1, 1, 1], [111, 111]])
 test_function([[0, 1], [1, 0]])
 test_function([[1, 1, 0], [10, 1]])
+test_function([[], []])
+test_function([[1], [1]])
