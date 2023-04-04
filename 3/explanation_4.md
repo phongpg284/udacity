@@ -1,0 +1,1 @@
+Only one traverse is needed to solve the problem, time complexity will be `O(n)` and space complexity is `O(n)`

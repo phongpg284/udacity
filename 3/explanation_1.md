@@ -1,0 +1,1 @@
+We got 2 while loop use binary search to find floor value. Therefore time complexity will be `O(log n)` and space complexity will be `O(1)`

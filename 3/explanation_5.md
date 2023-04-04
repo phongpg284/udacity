@@ -1,0 +1,1 @@
+For `suffixes()` method, we need to traverse each lower node of Trie tree. Time complexity will be `O(n)` for n is number of nodes, the space complexity wil be `O(n)` too. 

@@ -1,0 +1,1 @@
+We use 2 while loop, first one to find the pivot where array is rotated, second one is to find search value in 1 sorted array. Both use binary search, therefore time complexity will be `O(log n)` and space complexity will be `O(1)`

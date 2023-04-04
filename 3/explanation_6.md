@@ -1,0 +1,1 @@
+One traverse through the list is needed, so time complexity will be `O(n)` and space complexity will be `O(1)`
